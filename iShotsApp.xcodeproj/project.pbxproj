@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA8EAE2C1ABE610800BBFADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8EAE2B1ABE610800BBFADF /* AppDelegate.swift */; };
+		EA8EAE2E1ABE610800BBFADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8EAE2D1ABE610800BBFADF /* ViewController.swift */; };
+		EA8EAE311ABE610800BBFADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8EAE2F1ABE610800BBFADF /* Main.storyboard */; };
+		EA8EAE331ABE610800BBFADF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8EAE321ABE610800BBFADF /* Images.xcassets */; };
+		EA8EAE361ABE610800BBFADF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8EAE341ABE610800BBFADF /* LaunchScreen.xib */; };
+		EA8EAE421ABE610800BBFADF /* iShotsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8EAE411ABE610800BBFADF /* iShotsAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA8EAE3C1ABE610800BBFADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8EAE1E1ABE610800BBFADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8EAE251ABE610800BBFADF;
+			remoteInfo = iShotsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA8EAE261ABE610800BBFADF /* iShotsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iShotsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8EAE2A1ABE610800BBFADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8EAE2B1ABE610800BBFADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA8EAE2D1ABE610800BBFADF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA8EAE301ABE610800BBFADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA8EAE321ABE610800BBFADF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA8EAE351ABE610800BBFADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA8EAE3B1ABE610800BBFADF /* iShotsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iShotsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8EAE401ABE610800BBFADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8EAE411ABE610800BBFADF /* iShotsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iShotsAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8EAE231ABE610800BBFADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8EAE381ABE610800BBFADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8EAE1D1ABE610800BBFADF = {
+			isa = PBXGroup;
+			children = (
+				EA8EAE281ABE610800BBFADF /* iShotsApp */,
+				EA8EAE3E1ABE610800BBFADF /* iShotsAppTests */,
+				EA8EAE271ABE610800BBFADF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8EAE271ABE610800BBFADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EAE261ABE610800BBFADF /* iShotsApp.app */,
+				EA8EAE3B1ABE610800BBFADF /* iShotsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8EAE281ABE610800BBFADF /* iShotsApp */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EAE2B1ABE610800BBFADF /* AppDelegate.swift */,
+				EA8EAE2D1ABE610800BBFADF /* ViewController.swift */,
+				EA8EAE2F1ABE610800BBFADF /* Main.storyboard */,
+				EA8EAE321ABE610800BBFADF /* Images.xcassets */,
+				EA8EAE341ABE610800BBFADF /* LaunchScreen.xib */,
+				EA8EAE291ABE610800BBFADF /* Supporting Files */,
+			);
+			path = iShotsApp;
+			sourceTree = "<group>";
+		};
+		EA8EAE291ABE610800BBFADF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EAE2A1ABE610800BBFADF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA8EAE3E1ABE610800BBFADF /* iShotsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EAE411ABE610800BBFADF /* iShotsAppTests.swift */,
+				EA8EAE3F1ABE610800BBFADF /* Supporting Files */,
+			);
+			path = iShotsAppTests;
+			sourceTree = "<group>";
+		};
+		EA8EAE3F1ABE610800BBFADF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EAE401ABE610800BBFADF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8EAE251ABE610800BBFADF /* iShotsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8EAE451ABE610800BBFADF /* Build configuration list for PBXNativeTarget "iShotsApp" */;
+			buildPhases = (
+				EA8EAE221ABE610800BBFADF /* Sources */,
+				EA8EAE231ABE610800BBFADF /* Frameworks */,
+				EA8EAE241ABE610800BBFADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iShotsApp;
+			productName = iShotsApp;
+			productReference = EA8EAE261ABE610800BBFADF /* iShotsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA8EAE3A1ABE610800BBFADF /* iShotsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8EAE481ABE610800BBFADF /* Build configuration list for PBXNativeTarget "iShotsAppTests" */;
+			buildPhases = (
+				EA8EAE371ABE610800BBFADF /* Sources */,
+				EA8EAE381ABE610800BBFADF /* Frameworks */,
+				EA8EAE391ABE610800BBFADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8EAE3D1ABE610800BBFADF /* PBXTargetDependency */,
+			);
+			name = iShotsAppTests;
+			productName = iShotsAppTests;
+			productReference = EA8EAE3B1ABE610800BBFADF /* iShotsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8EAE1E1ABE610800BBFADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "yuye wang";
+				TargetAttributes = {
+					EA8EAE251ABE610800BBFADF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EA8EAE3A1ABE610800BBFADF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EA8EAE251ABE610800BBFADF;
+					};
+				};
+			};
+			buildConfigurationList = EA8EAE211ABE610800BBFADF /* Build configuration list for PBXProject "iShotsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8EAE1D1ABE610800BBFADF;
+			productRefGroup = EA8EAE271ABE610800BBFADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8EAE251ABE610800BBFADF /* iShotsApp */,
+				EA8EAE3A1ABE610800BBFADF /* iShotsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8EAE241ABE610800BBFADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8EAE311ABE610800BBFADF /* Main.storyboard in Resources */,
+				EA8EAE361ABE610800BBFADF /* LaunchScreen.xib in Resources */,
+				EA8EAE331ABE610800BBFADF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8EAE391ABE610800BBFADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8EAE221ABE610800BBFADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8EAE2E1ABE610800BBFADF /* ViewController.swift in Sources */,
+				EA8EAE2C1ABE610800BBFADF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8EAE371ABE610800BBFADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8EAE421ABE610800BBFADF /* iShotsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA8EAE3D1ABE610800BBFADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8EAE251ABE610800BBFADF /* iShotsApp */;
+			targetProxy = EA8EAE3C1ABE610800BBFADF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA8EAE2F1ABE610800BBFADF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8EAE301ABE610800BBFADF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA8EAE341ABE610800BBFADF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8EAE351ABE610800BBFADF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8EAE431ABE610800BBFADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA8EAE441ABE610800BBFADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8EAE461ABE610800BBFADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iShotsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA8EAE471ABE610800BBFADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iShotsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA8EAE491ABE610800BBFADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iShotsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iShotsApp.app/iShotsApp";
+			};
+			name = Debug;
+		};
+		EA8EAE4A1ABE610800BBFADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iShotsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iShotsApp.app/iShotsApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8EAE211ABE610800BBFADF /* Build configuration list for PBXProject "iShotsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8EAE431ABE610800BBFADF /* Debug */,
+				EA8EAE441ABE610800BBFADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8EAE451ABE610800BBFADF /* Build configuration list for PBXNativeTarget "iShotsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8EAE461ABE610800BBFADF /* Debug */,
+				EA8EAE471ABE610800BBFADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA8EAE481ABE610800BBFADF /* Build configuration list for PBXNativeTarget "iShotsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8EAE491ABE610800BBFADF /* Debug */,
+				EA8EAE4A1ABE610800BBFADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8EAE1E1ABE610800BBFADF /* Project object */;
+}
